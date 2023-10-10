@@ -1,3 +1,6 @@
+
+Github Repo: https://github.com/Abhisheksabhi33/AssignmentNodejs
+
 # Microservice for Summary Statistics
 
 This is a simple microservice for calculating summary statistics (mean, min, max) on a dataset. It provides APIs to add, delete, and fetch summary statistics for various subsets of the data.
@@ -40,7 +43,7 @@ Before running the microservice, make sure you have the following installed:
 
 ### 1. Add a New Record
 
-- **Endpoint:** `/add_record`
+- **Endpoint:** `/api/add_record`
 - **Method:** POST
 - **Request Body:** JSON data representing a record.
 - **Example:**
@@ -64,7 +67,7 @@ Before running the microservice, make sure you have the following installed:
 
 - To Delete a Particular Record Use the get_all_record endpoint and find the particular record ID to delete it.
 
-- **Endpoint:** `/delete_record/:id`
+- **Endpoint:** `/api/delete_record/:id`
 - **Method:** DELETE
 - **URL Parameter:** `id` - The ID of the record to delete.
 
@@ -75,7 +78,7 @@ Before running the microservice, make sure you have the following installed:
 
 ### 3. Fetch Summary Statistics for Salary (Entire Dataset)
 
-- **Endpoint:** `/summary_stats`
+- **Endpoint:** `/api/summary_stats`
 - **Method:** GET
 
  ## PostMan IMG
@@ -85,7 +88,7 @@ Before running the microservice, make sure you have the following installed:
 
 ### 4. Fetch Summary Statistics for Salary (Records with "on_contract": true)
 
-- **Endpoint:** `/summary_stats/on_contract`
+- **Endpoint:** `/api/summary_stats/on_contract`
 - **Method:** GET
 
 ## PostMan IMG
@@ -95,7 +98,7 @@ Before running the microservice, make sure you have the following installed:
 
 ### 5. Fetch Summary Statistics for Salary by Department
 
-- **Endpoint:** `/summary_stats/by_department`
+- **Endpoint:** `/api/summary_stats/by_department`
 - **Method:** GET
 
 ## PostMan IMG
@@ -105,7 +108,7 @@ Before running the microservice, make sure you have the following installed:
 
 ### 6. Fetch Summary Statistics for Salary by Department and Sub-Department
 
-- **Endpoint:** `/summary_stats/by_department_subdepartment`
+- **Endpoint:** `/api/summary_stats/by_department_subdepartment`
 - **Method:** GET
 
   ## PostMan IMG
@@ -115,7 +118,7 @@ Before running the microservice, make sure you have the following installed:
 
 ### 7. Get All Records
 
-- **Endpoint:** `/get-all-records`
+- **Endpoint:** `/api/get-all-records`
 - **Method:** GET
 
 ## PostMan IMG

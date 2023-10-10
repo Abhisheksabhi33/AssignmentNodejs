@@ -1,6 +1,4 @@
-const express = require("express");
-const bodyParser = require("body-parser");
-const cookieParser = require("cookie-parser");
+
 const jwt = require("jsonwebtoken");
 const generateAuthToken = (email) => {
   return jwt.sign({ email }, JWT_SECRET_KEY, { expiresIn: "7h" });
