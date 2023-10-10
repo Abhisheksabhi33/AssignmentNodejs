@@ -48,17 +48,19 @@ Before running the microservice, make sure you have the following installed:
 
   ```json
   {
-    "name": "John Doe",
-    "department": "HR",
-    "sub_department": "Recruitment",
-    "salary": 60000,
-    "on_contract": true
+    "name": "Abhishek Rawat",
+   "salary": "245000",
+   "currency": "USD",
+   "department": "Engineering",
+   "sub_department": "Platform"
   }
   ```
 
  ## PostMan IMG
 
-  ![image](https://github.com/Abhisheksabhi33/AssignmentNodejs/assets/87107030/ba323e08-b5b5-4374-88ac-1ea0a62b1b71)
+![image](https://github.com/Abhisheksabhi33/AssignmentNodejs/assets/87107030/c37305c8-873f-4e9e-b7ee-356d6c53312f)
+
+
 
 
 ### 2. Delete a Record
@@ -70,7 +72,8 @@ Before running the microservice, make sure you have the following installed:
 - **URL Parameter:** `id` - The ID of the record to delete.
 
 ## PostMan IMG
-![image](https://github.com/Abhisheksabhi33/AssignmentNodejs/assets/87107030/c4a1db1d-a1f8-4a1a-bf3c-88edba305536)
+![image](https://github.com/Abhisheksabhi33/AssignmentNodejs/assets/87107030/a6b7c0c2-337c-4c20-8485-6649c2c39240)
+
 
 
 
@@ -81,7 +84,8 @@ Before running the microservice, make sure you have the following installed:
 
  ## PostMan IMG
 
- ![image](https://github.com/Abhisheksabhi33/AssignmentNodejs/assets/87107030/0e5b42c3-2b23-48e6-a0bf-f6ed094f431c)
+![image](https://github.com/Abhisheksabhi33/AssignmentNodejs/assets/87107030/7bc8d4b6-0526-4dbc-9234-3702880371b6)
+
 
 
 ### 4. Fetch Summary Statistics for Salary (Records with "on_contract": true)
@@ -91,7 +95,8 @@ Before running the microservice, make sure you have the following installed:
 
 ## PostMan IMG
 
-![image](https://github.com/Abhisheksabhi33/AssignmentNodejs/assets/87107030/685a63a3-9ccd-48c4-bc46-cc335544b6bd)
+![image](https://github.com/Abhisheksabhi33/AssignmentNodejs/assets/87107030/5f7ecedb-e505-4ca2-9a99-d68fd7cc2502)
+
   
 
 ### 5. Fetch Summary Statistics for Salary by Department
@@ -101,7 +106,8 @@ Before running the microservice, make sure you have the following installed:
 
 ## PostMan IMG
 
-![image](https://github.com/Abhisheksabhi33/AssignmentNodejs/assets/87107030/99a92039-8307-4994-852a-ec84e345cf1d)
+![image](https://github.com/Abhisheksabhi33/AssignmentNodejs/assets/87107030/753d8afe-b48a-49be-96ed-33d5ba32ffa2)
+
 
 
 ### 6. Fetch Summary Statistics for Salary by Department and Sub-Department
@@ -111,7 +117,8 @@ Before running the microservice, make sure you have the following installed:
 
   ## PostMan IMG
 
- ![image](https://github.com/Abhisheksabhi33/AssignmentNodejs/assets/87107030/58ebd212-a488-47b4-b7db-d901ed99fc0f)
+![image](https://github.com/Abhisheksabhi33/AssignmentNodejs/assets/87107030/580e8b04-e148-4c0d-a750-67db18bb15aa)
+
 
 
 ### 7. Get All Records
@@ -120,8 +127,8 @@ Before running the microservice, make sure you have the following installed:
 - **Method:** GET
 
 ## PostMan IMG
-![image](https://github.com/Abhisheksabhi33/AssignmentNodejs/assets/87107030/291157d6-e8e6-4c84-8dc8-8fdb2046b7e6)
 
+![image](https://github.com/Abhisheksabhi33/AssignmentNodejs/assets/87107030/2fd60589-30ed-46e3-947a-7c8fd7b11ac8)
 
 
 ## Authentication and Authorization
@@ -136,9 +143,7 @@ Include the obtained token in the Authorization header for authorized access to 
 
 ## PostMan IMG
 
-![image](https://github.com/Abhisheksabhi33/AssignmentNodejs/assets/87107030/42683275-957d-42fc-9ca9-fcf0109db866)
-
-
+![image](https://github.com/Abhisheksabhi33/AssignmentNodejs/assets/87107030/6201e35c-76e5-4fec-8a57-651b97974acd)
 
 
 ## Error Handling
