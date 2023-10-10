@@ -1,6 +1,4 @@
 
-Github Repo: https://github.com/Abhisheksabhi33/AssignmentNodejs
-
 # Microservice for Summary Statistics
 
 This is a simple microservice for calculating summary statistics (mean, min, max) on a dataset. It provides APIs to add, delete, and fetch summary statistics for various subsets of the data.
